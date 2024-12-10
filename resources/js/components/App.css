@@ -1,0 +1,64 @@
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer; 
+    transition: transform 0.2s ease-in-out;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+.product-image {
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+}
+
+input.form-control {
+    width: 300px;
+}
+
+.product-details {
+    margin-top: 30px;
+}
+
+.product-details .card {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.product-details button {
+    margin-top: 10px;
+}
+.modal-content {
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 500px;
+    margin: auto;
+}
+
+.product-card {
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+.product-image {
+    height: 200px;
+    object-fit: cover;
+}
+
+.btn-close {
+    background: transparent;
+    border: none;
+    font-size: 1.5rem;
+}
+
+.modal-header .btn-close {
+    padding: 0;
+}
